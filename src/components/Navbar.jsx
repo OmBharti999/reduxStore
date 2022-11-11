@@ -6,35 +6,26 @@ const Navbar = () => {
   const items = useSelector((state) => state.cart);
 
   return (
-    <div
-      style={{
-        display: "flex",
-        padding: "0 5px",
-        alignItems: "center",
-        justifyContent: "space-between",
-        background: "purple",
-        color: "white"
-      }}
-    >
+    <div className="nav">
       <span className="logo">REDUX STORE</span>
       <div
         style={{
           display: "flex",
           gap: "10px",
-          padding: "12px 5px"
+          padding: "12px 5px",
         }}
       >
         <NavLink
           to="/home"
           style={{
-            color: "white"
+            color: "white",
           }}
         >
           Home
         </NavLink>
         <NavLink
           style={{
-            color: "white"
+            color: "white",
           }}
           to="/cart"
         >
