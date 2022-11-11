@@ -10,6 +10,9 @@
 ::-webkit-scrollbar {
   display: none;
 }
+h4 {
+  font-weight: 900;
+}
 /* for navbar */
 .nav {
   display: flex;
@@ -56,11 +59,13 @@ a {
   gap: 20px;
   margin-top: 20px;
 }
+/* card */
+
 .card {
   border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
-  width: 220px;
+  width: 240px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -119,4 +124,9 @@ button:hover {
   /* height: 30px; */
   color: wheat;
   background: blue;
+}
+@media only screen and (max-width: 410px) {
+  .card {
+    width: 100%;
+  }
 }
