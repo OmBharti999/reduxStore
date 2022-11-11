@@ -7,14 +7,7 @@ const Navbar = () => {
 
   return (
     <div
-      style={{
-        display: "flex",
-        padding: "0 5px",
-        alignItems: "center",
-        justifyContent: "space-between",
-        background: "purple",
-        color: "white"
-      }}
+      className="nav"
     >
       <span className="logo">REDUX STORE</span>
       <div
